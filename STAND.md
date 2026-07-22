@@ -1,3 +1,13 @@
+## Pflegeprodukt-Foto ersetzt (2026-07-22)
+
+Das alte Pflegeprodukt-Bild (zeigte fälschlich eine Gesichtscreme) ist ersetzt
+durch zwei Fotos aus Miriams Mail "Bild Kosmetik": RESACA-Pferdepflege
+(Spezialöl, Schweif-/Mähnenpflege, Pflegeöl), zu einem Bild kombiniert
+(`assets/produkt-pflege.jpg`, Cache-Buster `?v=2`). Text auf Start- und
+Produktseite entsprechend von "Lederpflege" auf "Pflege für Fell, Mähne und
+Schweif" geändert, da die Fotos Pferde- statt Lederpflegeprodukte zeigen.
+Damit ist der letzte offene Punkt aus dem 2026-07-07-Eintrag unten erledigt.
+
 ## Umzug auf eigenes GitHub (2026-07-22)
 
 Seite läuft jetzt über Miriams **eigenen** GitHub-Account (`vommoeningerberg`),
