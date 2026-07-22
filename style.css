@@ -147,6 +147,14 @@ section.block.dunkel { background: var(--creme-dunkel); }
 .infokarte h3 { margin-bottom: 10px; }
 .platzhalter { background: #fdf3d1; border-radius: 4px; padding: 1px 6px; }
 
+/* Über uns */
+.block h3 { font-size: 1.15rem; margin: 26px 0 10px; }
+.textblock { max-width: 720px; margin: 0 auto; }
+.textblock p + p { margin-top: 14px; }
+.merkmale { max-width: 720px; margin: 14px auto 0; padding-left: 22px; }
+.merkmale li { margin-bottom: 8px; color: var(--braun-hell); }
+.merkmale li::marker { color: var(--gold); }
+
 /* Fußzeile */
 footer.site {
   background: var(--braun); color: var(--creme);
