@@ -116,6 +116,16 @@ section.block.dunkel { background: var(--creme-dunkel); }
 .produkt h3 { font-size: 1.5rem; margin-bottom: 10px; }
 @media (max-width: 720px) { .produkt { grid-template-columns: 1fr; } }
 
+/* Tagebuch */
+.eintrag {
+  background: var(--weiss); border-radius: 12px; padding: 26px 28px;
+  border-top: 4px solid var(--gold); margin-bottom: 22px;
+  box-shadow: 0 3px 12px rgba(59, 42, 29, 0.08);
+}
+.eintrag-datum { font-size: 0.85rem; color: var(--gold); text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 6px; }
+.eintrag h3 { margin-bottom: 8px; }
+.eintrag img { display: block; width: 100%; max-width: 500px; border-radius: 10px; margin-top: 14px; }
+
 /* Kontakt + Impressum */
 .infokarte {
   background: var(--weiss); border-radius: 12px; padding: 28px;
