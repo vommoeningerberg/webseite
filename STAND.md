@@ -1,3 +1,23 @@
+## SEO-Feinschliff (2026-07-22)
+
+Technische SEO-Basis (Meta-Tags, OG-Tags, JSON-LD, Sitemap, robots.txt aus dem
+2026-07-14-Eintrag unten) war schon gut; ergänzt: jede Seite hat jetzt genau
+ein `<h1>` (vorher hatten Produkte/Kontakt/Tagebuch nur `<h2>` als Seitentitel
+und übersprangen damit eine Überschriftenebene — CSS entsprechend angepasst,
+keine optische Änderung). Alle Produktfotos haben jetzt `width`/`height`
+(gegen Layout-Shift) und `loading="lazy"` außer dem jeweils ersten Bild pro
+Seite (Ladezeit/Core Web Vitals). Store-Schema um `priceRange` ergänzt.
+Sitemap-`lastmod` für Start/Produkte auf 2026-07-22 aktualisiert.
+
+Nächste, stärkere Hebel für Sichtbarkeit (brauchen Hans/Miriam, nicht per
+Code lösbar): Google Business Profil anlegen (lokale Suche/Maps — größter
+Hebel für ein lokales Handwerksgeschäft), Google Search Console einrichten
+und Sitemap einreichen, organische Posts auf der Facebook-Seite (verlinkt auf
+vommoeningerberg.de, Tagebuch-Einträge eignen sich direkt als Post-Text).
+Sobald die Facebook-Seiten-URL bekannt ist: Link in Footer/Header ergänzen
+und als `sameAs` ins JSON-LD-Schema eintragen (stärkt beide Profile
+gegenseitig).
+
 ## Preise für Pflegeprodukte (2026-07-22)
 
 Preisliste im Pflegeprodukte-Abschnitt der Produktseite ergänzt (neue CSS-Klasse
