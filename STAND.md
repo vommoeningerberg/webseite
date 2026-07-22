@@ -1,3 +1,27 @@
+## Umzug auf eigenes GitHub (2026-07-22)
+
+Seite läuft jetzt über Miriams **eigenen** GitHub-Account (`vommoeningerberg`),
+Repo `vommoeningerberg/webseite` (vorher: `PatrickThoma/vmb-homepage`).
+GitHub Pages + Custom Domain `www.vommoeningerberg.de` sind im neuen Repo
+gesetzt, HTTPS-Zertifikat genehmigt, Patrick hat die Domain aus seinem alten
+Repo entfernt. DNS bei IONOS unverändert (zeigt weiter allgemein auf
+GitHub-Pages-Infrastruktur, funktioniert unabhängig davon, welches Repo die
+Domain "besitzt" — das steuert GitHub intern über das Custom-Domain-Feld).
+
+**Zugang:** `gh` CLI ist auf diesem Mac (miriamthoma) als `vommoeningerberg`
+angemeldet (Personal Access Token, im macOS-Schlüsselbund gespeichert).
+Globaler Git-Credential-Helper (`~/.gitconfig`) ist auf `gh auth git-credential`
+gesetzt — jeder `git push` von diesem Rechner auf github.com nutzt automatisch
+diesen Zugang. Lokales Repo hier im Ordner (`git remote -v` zeigt
+`https://github.com/vommoeningerberg/webseite.git`), Branch `main`.
+
+**Sicherheitshinweis:** Der aktuelle Token hat sehr weite Rechte (u.a.
+`delete_repo`, `admin:org`, `admin:enterprise` — mehr als für's Homepage-
+Pushen nötig). Sollte auf einen Token mit nur `repo`-Scope reduziert werden
+(github.com/settings/tokens → Token bearbeiten → nur `repo` anhaken). Miriams
+GitHub-Account hat außerdem noch keine Zwei-Faktor-Authentifizierung aktiv —
+sollte unter github.com/settings/security nachgeholt werden.
+
 # STAND vMB-Homepage (2026-07-07)
 
 **LIVE unter eigener Domain: https://www.vommoeningerberg.de** (HTTPS erzwungen; ohne-www leitet auf www um). Vier Seiten (Start, Produkte, Kontakt, Impressum), Design nach Visitenkarte (Creme/Braun/Gold), Schreibweise "vom MöningerBerg GmbH".
