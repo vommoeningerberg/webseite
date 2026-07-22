@@ -1,12 +1,34 @@
+## Preise für Pflegeprodukte (2026-07-22)
+
+Preisliste im Pflegeprodukte-Abschnitt der Produktseite ergänzt (neue CSS-Klasse
+`.preisliste`, `style.css?v=15`): Spezialöl 25,00 €, Spezialcreme 25,00 €,
+Spezialpaste 30,00 €, Schweif- und Mähnenpflege 22,00 €, Pflegeöl 17,00 €.
+Spezialöl/-pflege/-öl-Preise online recherchiert (RESACA-Vertriebspartner
+Naturstall-Shop, 500-ml-Preis) und von Miriam bestätigt; Spezialcreme/-paste
+direkt von Miriam genannt.
+
+## Neue Seite: Tagebuch (2026-07-22)
+
+Neue Seite `tagebuch.html` für wöchentliche Updates, in Navigation und Fußzeile
+aller Seiten verlinkt, in `sitemap.xml` eingetragen. Einträge sind einfache
+`<article class="eintrag">`-Blöcke (Datum, Überschrift, Text, optional Fotos
+in `.fotoreihe`) — neuen Eintrag oben in die Liste einfügen (Muster steht als
+Kommentar im HTML), dann committen/pushen. Enthält aktuell den "Waschtag"-Eintrag
+(beide RESACA-Fotos aus der Mail "Bild Kosmetik", `assets/tagebuch-waschtag-1/2.jpg`)
+und einen Eintrag zum Pflegeprodukt-Fotowechsel. EMIL Miriam kennt die Seite über
+`homepage_zusatz`/neuen Schnellbefehl "Tagebuch-Eintrag" in `variante.json`.
+
 ## Pflegeprodukt-Foto ersetzt (2026-07-22)
 
 Das alte Pflegeprodukt-Bild (zeigte fälschlich eine Gesichtscreme) ist ersetzt
-durch zwei Fotos aus Miriams Mail "Bild Kosmetik": RESACA-Pferdepflege
-(Spezialöl, Schweif-/Mähnenpflege, Pflegeöl), zu einem Bild kombiniert
-(`assets/produkt-pflege.jpg`, Cache-Buster `?v=2`). Text auf Start- und
-Produktseite entsprechend von "Lederpflege" auf "Pflege für Fell, Mähne und
-Schweif" geändert, da die Fotos Pferde- statt Lederpflegeprodukte zeigen.
-Damit ist der letzte offene Punkt aus dem 2026-07-07-Eintrag unten erledigt.
+durch ein Foto aus Miriams Mail "Bild Kosmetik": RESACA-Pferdepflege
+(Spezialöl, Schweif-/Mähnenpflege, Pflegeöl), die liegende Flasche im
+Vordergrund (`assets/produkt-pflege.jpg`, Cache-Buster `?v=3`; ein erster
+Versuch mit beiden Fotos kombiniert wurde auf Miriams Wunsch wieder durch das
+Einzelfoto ersetzt). Text auf Start- und Produktseite entsprechend von
+"Lederpflege" auf "Pflege für Fell, Mähne und Schweif" geändert, da die Fotos
+Pferde- statt Lederpflegeprodukte zeigen. Damit ist der letzte offene Punkt aus
+dem 2026-07-07-Eintrag unten erledigt.
 
 ## Umzug auf eigenes GitHub (2026-07-22)
 
@@ -25,12 +47,13 @@ gesetzt — jeder `git push` von diesem Rechner auf github.com nutzt automatisch
 diesen Zugang. Lokales Repo hier im Ordner (`git remote -v` zeigt
 `https://github.com/vommoeningerberg/webseite.git`), Branch `main`.
 
-**Sicherheitshinweis:** Der aktuelle Token hat sehr weite Rechte (u.a.
-`delete_repo`, `admin:org`, `admin:enterprise` — mehr als für's Homepage-
-Pushen nötig). Sollte auf einen Token mit nur `repo`-Scope reduziert werden
-(github.com/settings/tokens → Token bearbeiten → nur `repo` anhaken). Miriams
-GitHub-Account hat außerdem noch keine Zwei-Faktor-Authentifizierung aktiv —
-sollte unter github.com/settings/security nachgeholt werden.
+**Sicherheit (erledigt, 2026-07-22):** Der Token hatte anfangs viel zu weite
+Rechte (u.a. `delete_repo`, `admin:org`, `admin:enterprise`) — ist inzwischen
+auf den Scope `repo` reduziert (github.com/settings/tokens), Push funktioniert
+weiterhin. Miriam hat außerdem die Zwei-Faktor-Authentifizierung unter
+github.com/settings/security eingerichtet (von ihr bestätigt; per API nicht
+mehr einsehbar, weil der schlanke Token dafür keine Berechtigung mehr hat —
+das ist beabsichtigt).
 
 # STAND vMB-Homepage (2026-07-07)
 
