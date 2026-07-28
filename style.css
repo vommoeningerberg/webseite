@@ -137,6 +137,17 @@ section.block.dunkel { background: var(--creme-dunkel); }
 }
 .preisliste li span:last-child { color: var(--gold); font-weight: 600; white-space: nowrap; }
 
+/* Weiterlesen-Aufklapper */
+.weiterlesen { margin-top: 10px; }
+.weiterlesen summary {
+  color: var(--gold); cursor: pointer; font-weight: 600;
+  list-style: none; font-size: 0.95rem;
+}
+.weiterlesen summary::-webkit-details-marker { display: none; }
+.weiterlesen summary:hover { text-decoration: underline; }
+.weiterlesen[open] summary { margin-bottom: 10px; }
+.weiterlesen p { margin-top: 10px; }
+
 /* Kontakt + Impressum */
 .infokarte {
   background: var(--weiss); border-radius: 12px; padding: 28px;
