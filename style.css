@@ -117,6 +117,23 @@ section.block.dunkel { background: var(--creme-dunkel); }
 #handling { align-items: start; }
 @media (max-width: 720px) { .produkt { grid-template-columns: 1fr; } }
 
+/* Aktions-Banner */
+.aktion-banner {
+  background: var(--gold); color: var(--braun);
+  display: flex; align-items: center; justify-content: center;
+  position: relative; padding: 12px 46px; text-align: center;
+  font-size: 0.95rem;
+}
+.aktion-banner-link { color: var(--braun); text-decoration: underline; font-weight: 600; }
+.aktion-banner-link:hover { color: var(--weiss); }
+.aktion-banner-close {
+  position: absolute; right: 10px; top: 50%; transform: translateY(-50%);
+  background: none; border: none; font-size: 1.4rem; line-height: 1; cursor: pointer;
+  color: var(--braun); padding: 4px 10px;
+}
+.aktion-banner-close:hover { color: var(--weiss); }
+@media (max-width: 720px) { .aktion-banner { font-size: 0.82rem; padding: 10px 40px; } }
+
 /* Tagebuch */
 .eintrag {
   background: var(--weiss); border-radius: 12px; padding: 26px 28px;
