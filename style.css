@@ -52,6 +52,56 @@ nav.main a {
 nav.main a:hover { background: var(--creme-dunkel); }
 nav.main a.aktiv { background: var(--braun); color: var(--creme); }
 
+.menu-knopf {
+  display: none; width: 40px; height: 40px; border: none; background: none; cursor: pointer;
+  flex-direction: column; justify-content: center; align-items: center; gap: 5px;
+}
+.menu-knopf span { display: block; width: 22px; height: 2px; background: var(--braun); border-radius: 1px; }
+.menu-knopf:hover { background: var(--creme-dunkel); border-radius: 6px; }
+
+.suche { position: relative; }
+
+@media (max-width: 720px) {
+  .headbar { position: relative; justify-content: center; padding-bottom: 56px; }
+  .logo-badge { margin: 0 5px; }
+  .menu-knopf {
+    display: flex; position: absolute; bottom: 8px; right: 4px;
+  }
+  nav.main {
+    display: none; position: absolute; top: 100%; left: 0; right: 0; margin-left: 0;
+    flex-direction: column; gap: 0;
+    background: var(--weiss); border-top: 1px solid var(--creme-dunkel);
+    box-shadow: 0 6px 20px rgba(59, 42, 29, 0.18); z-index: 15;
+  }
+  nav.main.offen { display: flex; }
+  nav.main a { padding: 13px 18px; border-radius: 0; }
+  .suche { position: absolute; bottom: 8px; right: 48px; margin-left: 0; }
+}
+
+.suche-knopf {
+  width: 40px; height: 40px; border-radius: 6px; border: none; background: none;
+  color: var(--braun); font-size: 1.1rem; cursor: pointer;
+}
+.suche-knopf:hover { background: var(--creme-dunkel); }
+.suche-panel {
+  position: absolute; top: calc(100% + 8px); right: 0; width: 280px;
+  background: var(--weiss); border-radius: 10px; border-top: 3px solid var(--gold);
+  box-shadow: 0 6px 20px rgba(59, 42, 29, 0.18); padding: 12px; z-index: 20;
+}
+.suche-eingabe {
+  width: 100%; box-sizing: border-box; padding: 9px 12px; border-radius: 6px;
+  border: 1px solid var(--creme-dunkel); background: var(--creme); color: var(--braun);
+  font-size: 0.95rem;
+}
+.suche-eingabe:focus { outline: 2px solid var(--gold); }
+.suche-hinweis { margin: 10px 0 0; font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--gold); }
+.suche-ergebnisse { list-style: none; margin: 8px 0 0; padding: 0; max-height: 260px; overflow-y: auto; }
+.suche-ergebnisse li { border-top: 1px solid var(--creme-dunkel); }
+.suche-ergebnisse li:first-child { border-top: none; }
+.suche-ergebnisse a { display: block; padding: 9px 4px; color: var(--braun); text-decoration: none; font-size: 0.92rem; }
+.suche-ergebnisse a:hover { background: var(--creme-dunkel); }
+.suche-leer { padding: 9px 4px; color: var(--braun-hell); font-size: 0.9rem; }
+
 /* Held-Bereich: Tamino als dezenter Hintergrund hinter Creme-Schleier */
 .hero {
   text-align: center;

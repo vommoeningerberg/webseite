@@ -5,7 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>vom MöningerBerg GmbH - Handgemachte Lederwaren rund um Pferd &amp; Mensch</title>
 <meta name="description" content="Maßgefertigte Handwerkskunst und individuelles Coaching für Mensch und Tier: drucklose Zäume, Lederwaren, Reparaturen, Pflegeprodukte und Pferde-Handling aus Freystadt in der Oberpfalz, Bayern. Alles gefertigt am Möningerberg.">
-<link rel="stylesheet" href="style.css?v=18">
+<link rel="stylesheet" href="style.css?v=27">
+<script defer src="assets/search.js?v=5"></script>
 <link rel="canonical" href="https://www.vommoeningerberg.de/">
 <link rel="icon" href="assets/favicon.ico" sizes="any">
 <link rel="icon" type="image/png" href="assets/favicon.png">
@@ -40,12 +41,21 @@
     <a class="wordmark" href="index.html">vom MöningerBerg GmbH
       <small>Eure Ideen. Unsere Lösungen.</small>
     </a>
+    <button type="button" class="menu-knopf" aria-label="Menü öffnen" aria-expanded="false"><span></span><span></span><span></span></button>
     <nav class="main">
       <a class="aktiv" href="index.html">Start</a>
       <a href="produkte.html">Produkte &amp; Leistungen</a>
       <a href="tagebuch.html">Tagebuch</a>
       <a href="kontakt.html">Kontakt</a>
     </nav>
+    <div class="suche">
+      <button type="button" class="suche-knopf" aria-label="Suche öffnen" aria-expanded="false">&#128269;</button>
+      <div class="suche-panel" hidden>
+        <input type="search" class="suche-eingabe" placeholder="Suchen…" aria-label="Suchbegriff">
+        <p class="suche-hinweis" hidden>Häufig gesucht</p>
+        <ul class="suche-ergebnisse"></ul>
+      </div>
+    </div>
   </div>
 </header>
 

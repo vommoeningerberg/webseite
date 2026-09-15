@@ -5,7 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Produkte &amp; Leistungen - vom MöningerBerg GmbH</title>
 <meta name="description" content="Drucklose Zäume, Hufglocken, Lederwaren für Tiere, Diebstahlschutz für Sättel, Leder-Reparaturen, Pflegeprodukte und Pferde-Handling durch Miriam, handgefertigt in unserer Werkstatt am Möningerberg bei Freystadt in der Oberpfalz.">
-<link rel="stylesheet" href="style.css?v=18">
+<link rel="stylesheet" href="style.css?v=27">
+<script defer src="assets/search.js?v=5"></script>
 <link rel="canonical" href="https://www.vommoeningerberg.de/produkte.html">
 <link rel="icon" href="assets/favicon.ico" sizes="any">
 <link rel="icon" type="image/png" href="assets/favicon.png">
@@ -39,12 +40,21 @@
     <a class="wordmark" href="index.html">vom MöningerBerg GmbH
       <small>Eure Ideen. Unsere Lösungen.</small>
     </a>
+    <button type="button" class="menu-knopf" aria-label="Menü öffnen" aria-expanded="false"><span></span><span></span><span></span></button>
     <nav class="main">
       <a href="index.html">Start</a>
       <a class="aktiv" href="produkte.html">Produkte &amp; Leistungen</a>
       <a href="tagebuch.html">Tagebuch</a>
       <a href="kontakt.html">Kontakt</a>
     </nav>
+    <div class="suche">
+      <button type="button" class="suche-knopf" aria-label="Suche öffnen" aria-expanded="false">&#128269;</button>
+      <div class="suche-panel" hidden>
+        <input type="search" class="suche-eingabe" placeholder="Suchen…" aria-label="Suchbegriff">
+        <p class="suche-hinweis" hidden>Häufig gesucht</p>
+        <ul class="suche-ergebnisse"></ul>
+      </div>
+    </div>
   </div>
 </header>
 
@@ -84,7 +94,7 @@
 
     <div class="produkt" id="lederwaren">
       <div>
-        <h2>Lederwaren jeder Art für Tiere</h2>
+        <h2>Halsbänder &amp; Lederwaren jeder Art für Tiere</h2>
         <p>Hundehalsbänder, Leinen mit Namensprägung, Geldbeutel, Gürtel, Brillenetuis und Sonderanfertigungen: wir fertigen Lederwaren aller Art, für Tier und Mensch. Sagt uns, was ihr braucht, wir setzen es um.</p>
       </div>
       <picture><source srcset="assets/produkt-lederwaren.webp" type="image/webp"><img src="assets/produkt-lederwaren.jpg" width="1210" height="1210" loading="lazy" alt="Vier handgefertigte Lederwaren: Hundeleine mit Prägung Oscar, geflochtenes Halsband Leo, Geldbeutel mit Löwenmotiv und Brillenetui mit Bärmotiv"></picture>
