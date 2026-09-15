@@ -13,7 +13,7 @@
     { titel: "Tagebuch", url: "tagebuch.html", text: "Tagebuch wöchentliche Updates Kundenauftrag Lederhalsband Eyva Näharbeiten Markisen Zelte Segel Meta Gloss Vermessung Tamino Zaum Waschtag Pflegeprodukte News Neuigkeiten" },
     { titel: "Kontakt", url: "kontakt.html", text: "Kontakt Telefon E-Mail Adresse Termine Anfahrt erreichen" },
     { titel: "Anleitung zum Vermessen", url: "anleitung-vermessen.html", text: "Anleitung Vermessen Maß nehmen Zaum Tamino Horse Accessoires Kerstin Rauch" },
-    { titel: "Wiesn-Aktion", url: "wiesn-aktion.html", text: "Wiesn-Aktion Lederhosen reparieren Gutschein Aktion Oktoberfest" },
+    { titel: "Weihnachtsgeschenk-Aktion", url: "weihnachtsgeschenk-aktion.html", text: "Weihnachtsgeschenk-Aktion Weihnachten Rabatt Gutschein Lederaufbereitung Auto Reparatur Ledertasche Gürtel Punzieren Gravur Geldbeutel Reithalfter Hundehalsband Zaum Biothane Hufglocken Pflegemittel Beratung" },
     { titel: "Impressum", url: "impressum.html", text: "Impressum" },
     { titel: "Datenschutz", url: "datenschutz.html", text: "Datenschutz Datenschutzerklärung DSGVO" }
   ];
