@@ -7,6 +7,7 @@
     { titel: "Halsbänder & Lederwaren jeder Art für Tiere", url: "produkte.html#lederwaren", text: "Lederwaren Hundeleine Halsband Halsbänder Hundehalsband Geldbeutel Brillenetui Leine" },
     { titel: "Diebstahlschutz für Sättel", url: "produkte.html#diebstahlschutz", text: "Diebstahlschutz Sättel Sattel Sattelsuche Ortung GPS Diebstahl wiederfinden" },
     { titel: "Leder-Reparaturen", url: "produkte.html#reparaturen", text: "Leder Reparaturen reparieren Naht Zaum Halfter Geldbeutel kaputt" },
+    { titel: "Fliegengitter-Reparatur für Scheunen", url: "produkte.html#fliegengitter", text: "Fliegengitter Reparatur Scheune Scheunen vor Ort Insektenschutz Preis auf Anfrage" },
     { titel: "Meta Gloss – Anti-Filz, Volumen & Glanz", url: "produkte.html#metagloss", text: "Meta Gloss Anti-Filz Filz Volumen Glanz Fell Mähne Schweif" },
     { titel: "Pflegeprodukte", url: "produkte.html#pflege", text: "Pflegeprodukte Spezialöl Spezialcreme Spezialpaste Schweifpflege Mähnenpflege Pflegeöl RESACA Pflege" },
     { titel: "Pferdecoaching Miriam", url: "produkte.html#handling", text: "Pferdecoaching Handling Pferde Coaching Miriam Bodenarbeit" },
