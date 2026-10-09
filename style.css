@@ -108,7 +108,15 @@ nav.main a.aktiv { background: var(--braun); color: var(--creme); }
   padding: 64px 20px 56px;
   background:
     linear-gradient(rgba(250, 247, 232, 0.78), rgba(250, 247, 232, 0.6) 45%, rgba(250, 247, 232, 0.86)),
-    url("assets/tamino-hintergrund.jpg?v=2") center 28%/cover no-repeat;
+    url("assets/tamino-hintergrund.jpg?v=3") center 28%/cover no-repeat;
+}
+@supports (background: image-set(url("x") type("image/webp"))) {
+  .hero {
+    background:
+      linear-gradient(rgba(250, 247, 232, 0.78), rgba(250, 247, 232, 0.6) 45%, rgba(250, 247, 232, 0.86)),
+      image-set(url("assets/tamino-hintergrund.webp?v=3") type("image/webp"),
+                url("assets/tamino-hintergrund.jpg?v=3") type("image/jpeg")) center 28%/cover no-repeat;
+  }
 }
 .hero .logo-karte {
   display: block;

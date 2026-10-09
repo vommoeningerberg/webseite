@@ -5,6 +5,7 @@
     { titel: "Zäume drucklos auf den Pferdekopf", url: "produkte.html#zaeume", text: "Zäume drucklos Zaum Pferdekopf feine Details ehrliche Handarbeit" },
     { titel: "Hufglocken", url: "produkte.html#hufglocken", text: "Hufglocken Huf Glocken" },
     { titel: "Halsbänder & Lederwaren jeder Art für Tiere", url: "produkte.html#lederwaren", text: "Lederwaren Hundeleine Halsband Halsbänder Hundehalsband Geldbeutel Brillenetui Leine" },
+    { titel: "Erinnerungsstücke – Andenken an dein Tier", url: "produkte.html#erinnerung", text: "Erinnerungsstück Erinnerungsstücke Andenken Trauer verstorben verstorbenes Tier Fell Haare Asche Halsband Lederhalter Anhänger einarbeiten Gedenken Erinnerung Memorial Haustier Pferd Hund Katze" },
     { titel: "Diebstahlschutz für Sättel", url: "produkte.html#diebstahlschutz", text: "Diebstahlschutz Sättel Sattel Sattelsuche Ortung GPS Diebstahl wiederfinden" },
     { titel: "Leder-Reparaturen", url: "produkte.html#reparaturen", text: "Leder Reparaturen reparieren Naht Zaum Halfter Geldbeutel kaputt" },
     { titel: "Fliegengitter-Reparatur für Scheunen", url: "produkte.html#fliegengitter", text: "Fliegengitter Reparatur Scheune Scheunen vor Ort Insektenschutz Preis auf Anfrage" },
