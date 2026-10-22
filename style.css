@@ -165,6 +165,8 @@ section.block.dunkel { background: var(--creme-dunkel); }
 .produkt { display: grid; grid-template-columns: 1fr 1fr; gap: 34px; align-items: center; padding: 44px 0; border-bottom: 1px solid var(--creme-dunkel); }
 .produkt:last-child { border-bottom: none; }
 .produkt img { width: 100%; height: auto; border-radius: 12px; box-shadow: 0 6px 20px rgba(59, 42, 29, 0.18); }
+.produkt .bild-figur { margin: 0; }
+.bild-hinweis { margin-top: 6px; font-size: 0.78rem; font-style: italic; color: var(--braun-hell); text-align: right; }
 .produkt .foto-fehlt {
   border-radius: 12px; border: 2px dashed var(--gold);
   min-height: 220px; display: flex; align-items: center; justify-content: center;
